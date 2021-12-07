@@ -1,5 +1,6 @@
 import * as React from "react";
 import { ImageBackground, StyleSheet } from "react-native";
+import images from "../assets/images/backgrounds";
 
 import EditScreenInfo from "../components/EditScreenInfo";
 import { Text, View } from "../components/Themed";
@@ -8,7 +9,7 @@ export default function TabThreeScreen() {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require("../assets/images/pancake.webp")}
+        source={images.cake}
         resizeMode="cover"
         style={styles.image}
       >
